@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Paweena 58102010811</title>
+		<style> 
+		.flex-container {
+			display: -webkit-flex;
+			display: flex;  
+			-webkit-flex-flow: row wrap;
+			flex-flow: row wrap;
+			text-align: center;
+		}
+
+		.flex-container > * {
+			padding: 15px;
+			-webkit-flex: 1 100%;
+			flex: 1 100%;
+		}
+
+		.article {
+			text-align: left;
+			font-family: "papyrus regular";
+			font-size: 25px;
+			text-shadow: 2px 2px 5px white;
+		}
+
+		header {
+			text-shadow: 2px 2px 5px white;
+			color:purple;
+			font-family: "jokerman regular";
+			font-size: 30px;
+		}
+
+		@media all and (min-width: 768px) {
+			.nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+			.article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+			
+		}
+		body {
+			background-image: url("1.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;			
+		}
+		</style>
+	</head>
+	
+	<body>
+
+	<div class="flex-container">
+	<header>
+	  <h1><img src="logo.png" style="width:55px;height:55px;"> My <font color="#FF0099">Profile</font></h1>
+	  <h2>Paweena Intharasawun <font color="#00BFFF"> (lynn)</font></h2>
+	</header>
+
+	<nav class="nav">
+		<img src="p.jpg" style="width:350px;height:400px;">
+	</nav>
+
+	<article class="article">
+	  <h1>18 / June / 1997 </h1>
+	  <p><strong>20 Years-old</strong></p>
+	  <p><strong>Graduated High School at Lasalle School</strong></p>
+	  <p><strong>And Now study at Computer Science at Srinakharinwirot University</strong></p>
+	  <p><strong>58102010811</strong></p>
+	</article>
+
+	
+	</div>
+
+	</body>
+</html>
